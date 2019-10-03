@@ -16,3 +16,8 @@ resource "aws_route53_record" "www-dev" {
 
   set_identifier = "dev"
   records        = ["dev.example.com"]
+
+
+  {
+  label:"docker"
+  }
